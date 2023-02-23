@@ -1,0 +1,74 @@
+/*Header font*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*Main-text font*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+/*Some scpirts font*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Abril Fatface, sans-serif;
+    background-color: rgb(199, 199, 199);
+    height: 120px;
+}
+
+
+.main {
+    font-family: Rajdhani, sans-serif;
+}
+
+button {
+    font-family: Abril Fatface, sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    background: none;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    color: aliceblue;
+}
+
+/* Change background color of buttons on hover */
+.buttons button:hover {
+    background-color: #414040cb;
+    border-radius: 20px;
+}
+
+/* Create an active/current tablink class */
+.buttons button.active {
+    background-color: #414040cb;
+    border-radius: 20px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    width: 50%;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.621);
+    padding-top: 125px;
+}
+
+.newBackground {
+    background-color: black;
+}
+
